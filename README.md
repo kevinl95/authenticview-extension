@@ -45,7 +45,6 @@ If you want to run the backend in local system, then the model has to be trained
 
 ## Limitations
 
-It can't​ ​be​ ​used​ ​for​ ​protected​ ​images.​ ​Example-​ ​It​ ​can’t​ ​be​ ​used​ ​on​ ​the images​ ​in​ ​facebook​ ​as​ ​they​ ​are​ ​protected​  ones.
-
-Description for some pictures may not be accurate.
+* It can't​ ​be​ ​used​ ​for​ ​protected​ ​images.​ ​Example-​ ​It​ ​can’t​ ​be​ ​used​ ​on​ ​the images​ ​in​ ​facebook​ ​as​ ​they​ ​are​ ​protected​  ones.
+* Description for some pictures may not be accurate.
 

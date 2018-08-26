@@ -11,19 +11,35 @@ The​ ​application​ ​is​ ​basically​ ​a​ ​functional​ ​Go
 ## Installation
 
 1. Open Google Chrome and go to Extensions (under More Tools)
-2. Select Load unpacked extension.
-3. Select the folder image-caption Extension.
+2. Select "Load unpacked extension".
+3. Select the folder "image-caption Extension" which is inside the directory "Code Of Google Chrome Extension".
 
 The extension is now installed.
 
 ## Usage
 
 1. Right-click on an image for which you want to view the description.
-2. Select Get Image Description from the menu.
+2. Select "Get Image Description" from the menu.
 3. The description will be displayed on an overlay. The text is also converted to audio.
 4. Press escape to exit the overlay.
 
+## Screenshots
+
+1. Options shown when an image is right-clicked 
+
 ![Options shown when an image is right-clicked](https://i.imgur.com/yBnGDRs.png)
+
+2. Overlay displayed after selecting the "Get Image Description" option
+
+![Overlay displayed after selecting the "Get Image Description" option](https://i.imgur.com/NXYceiv.png)
+
+3. Response from the cloud server when there is no error
+
+![Response from the cloud server when there is no error](https://i.imgur.com/J6aoOvj.png)
+
+4. Response from the cloud server when there is an error
+
+![Response from the cloud server when there is an error](https://i.imgur.com/jhumqWp.png)
 
 ## Limitations
 

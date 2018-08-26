@@ -98,7 +98,8 @@ def index(request):
     		return results
 
     #CHECKPOINT_PATH = "./tmp/model/model/train/model.ckpt-2000000"
-    CHECKPOINT_PATH = "./tmp/model/model/train/model2.ckpt-2000000"
+    #CHECKPOINT_PATH = "./tmp/model/model/train/model2.ckpt-2000000"
+    CHECKPOINT_PATH = "./saved_models/model2.ckpt-2000000"
     VOCAB_FILE = "im2txt/data/mscoco/word_counts.txt"
 
     # init model

@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "main.css" ],
+      "js": [ "jquery.min.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Get image captions for images by right-clicking them and selecting Get Image Description",
+   "icons": {
+      "256": "icon.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "6.0.0.0",
+   "name": "Image Caption Generator",
+   "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
+   "version": "1.0"
+}

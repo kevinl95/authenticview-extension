@@ -1,0 +1,34 @@
+#aat-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.95);
+  z-index: 999999;
+  cursor: pointer;
+}
+
+#aat-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Arial';
+  font-size: 30px;
+  line-height: 1.5em;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#aat-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  font-family: 'Arial';
+  font-size: 25px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}

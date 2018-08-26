@@ -2,6 +2,8 @@
 
 This repository contains the code for the chrome extension "Image Caption Generator" and its backend.
 
+The model used in the backend is described in the CVPR2015 paper ["Show and tell: A neural image caption generator"](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf).
+
 ## Introduction
 
 The​ ​application​ ​is​ ​basically​ ​a​ ​functional​ ​Google​ ​Chrome​ ​Extension​ ​that generates​ ​a​ ​caption​ ​for​ ​an​ ​image​ ​which​ ​describes​ ​what​ ​is​ ​contained​ ​in​ ​the image.​ ​The​ ​image​ ​captioning​ ​is​ ​done​ ​by​ ​a​ ​deep​ ​learning​ ​network​ ​which​ ​runs​ ​on a​ ​cloud​ ​server (Heroku).​ ​The​ ​caption​ ​generated​ ​is​ ​converted​ ​into​ ​speech​ ​by JavaScript’s​ ​Web​ ​Speech​ ​AP (SpeechSynthesisUtterance​ ​API).

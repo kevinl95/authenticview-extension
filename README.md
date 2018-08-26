@@ -23,6 +23,8 @@ The extension is now installed.
 3. The description will be displayed on an overlay. The text is also converted to audio.
 4. Press escape to exit the overlay.
 
+![Options shown when an image is right-clicked](https://i.imgur.com/yBnGDRs.png)
+
 ## Limitations
 
 It can't​ ​be​ ​used​ ​for​ ​protected​ ​images.​ ​Example-​ ​It​ ​can’t​ ​be​ ​used​ ​on​ ​the images​ ​in​ ​facebook​ ​as​ ​they​ ​are​ ​protected​  ones.

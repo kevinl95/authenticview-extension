@@ -16,6 +16,8 @@ The​ ​application​ ​is​ ​basically​ ​a​ ​functional​ ​Go
 
 The extension is now installed.
 
+If you want to run the backend in local system, then the model has to be trained first. The trained model can be downloaded from this [link](https://drive.google.com/open?id=17hjhnGVt5pHuH_s6__-N8FC_Qx0SaQ01) . Once it is downloaded, extract the files in the directory Code Running In Heroku Cloud Server/image-caption/saved_models.
+
 ## Usage
 
 1. Right-click on an image for which you want to view the description.

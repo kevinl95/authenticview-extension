@@ -1,1 +1,0 @@
-This directory contains the code for the backend of the Chrome Extension. This code is running in Heroku cloud server. views.py file in image-caption/hello directory contains the code which gets the request from Chrome Extension and returns the caption.

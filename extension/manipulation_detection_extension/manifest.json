@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "main.css" ],
+      "js": [ "jquery.min.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Highlight likely image manipulation for body positivity.",
+   "icons": {
+      "256": "icon.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "6.0.0.0",
+   "name": "AuthenticView",
+   "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
+   "version": "1.0"
+}

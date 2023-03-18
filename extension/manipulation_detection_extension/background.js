@@ -4,14 +4,20 @@
  */
 chrome.contextMenus.create({
   "title" : "Highlight Likely Manipulation",
+  "id": 'authenticview',
   "type" : "normal",
   "contexts" : ["image"],
-  "onclick": onClickHandler
 });
 
-function onClickHandler(info, tab) { 
+
+chrome.contextMenus.onClicked.addListener(function(info, tab) {
+  if (info.menuItemId == "authenticview") {
+      process(info, tab);
+  }
+});
+
+function process(info, tab) { 
   var img = info.srcUrl;
-  console.log(img);
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     var activeTab = tabs[0];
     chrome.tabs.sendMessage(activeTab.id, {"message": img});

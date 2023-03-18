@@ -1,6 +1,6 @@
 {
    "background": {
-      "scripts": [ "background.js" ]
+      "service_worker": "background.js"
    },
    "content_scripts": [ {
       "css": [ "main.css" ],
@@ -11,9 +11,9 @@
    "icons": {
       "256": "icon.png"
    },
-   "manifest_version": 2,
-   "minimum_chrome_version": "6.0.0.0",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
    "name": "AuthenticView",
-   "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*" ],
+   "permissions": [ "contextMenus" ],
    "version": "1.0"
 }
